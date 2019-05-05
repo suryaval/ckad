@@ -7,7 +7,9 @@
 > kubectl apply -f create-persistent-volume.yaml
 
 ```
-NOTE: the hostPath: | path: "/data/basicservice" should be available before hand creating a persistent volume. If it does not exist, create a directory with `mkdir -m 755 -p /data/basicservice`
+NOTE: the hostPath: | path: "/data/basicservice" should be available before hand creating a persistent volume.
+
+If it does not exist, create a directory with `mkdir -m 755 -p /data/basicservice`
 ```
 
 ## Persistent-Volume-Claim
