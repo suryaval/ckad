@@ -1,4 +1,4 @@
-# How-To create individual Kubernetes objects writing with hand
+# How-To create individual Kubernetes objects writing Yamls
 
 ## Persistent-Volume
 
