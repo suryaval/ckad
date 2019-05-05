@@ -11,10 +11,23 @@ NOTE: the hostPath: | path: "/data/basicservice" should be available before hand
 
 If it does not exist, create a directory with `mkdir -m 755 -p /data/basicservice`
 ```
+### Verify if Persistent Volume was created
+
+> kubectl get pv
+
+#### Kubernetes Documentation
 
 ## Persistent-Volume-Claim
 
 [Create-PVC](./files/create-persistent-volume-claim.yaml)
+
+> kubectl apply -f create-persistent-volume-claim.yaml
+
+### Verify if Persistent Volume Claim was created
+
+> kubectl get pvc
+
+#### Kubernetes Documentation
 
 ## Config-Map
 
